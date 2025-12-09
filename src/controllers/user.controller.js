@@ -20,7 +20,7 @@ const registerUser = asyncHandler(async (req, res) => {
 
   //get user details from frontend
   const { fullName, username, email, password } = req.body;
-  console.log("email: ", email);
+  // console.log("email: ", email);
 
   //validation - not empty
   if (
